@@ -1,13 +1,23 @@
 rm(list = ls())
 
-setwd("~/Dropbox/Cointegration Test/Code")
+###############################
+# Set directory and load data #
+###############################
 
-logprice = as.matrix(read.csv("logprice.csv")[,-c(1,2)])
+#setwd("~/...")
+data = read.csv("logprice.csv",header=T)
 date = as.Date(read.csv("logprice.csv")[,2])
 
-plot(logprice[,1]~date,type="l",ylim=c(-7,10),xlab="",ylab="",lwd=2)
-lines(logprice[,2]~date,col="red",lwd=2)
-lines(logprice[,3]~date,col="blue",lwd=2)
-lines(logprice[,4]~date,col="green",lwd=2)
-lines(logprice[,5]~date,col="purple",lwd=2)
-for(i in 5:20){lines(logprice[,i]~date,col="grey")}
+
+########################################
+# Joint time series plot of log prices #
+########################################
+
+pdf(file = "CryptoDynamics_Series.pdf", width = 7, height = 5, family = "Helvetica") # defaults to 7 x 7 inches
+par(mar=c(2,2,1,1))
+plot(data[,3]~date,type="l",ylim=c(-5,10),xlab="",ylab="",lwd=2)
+lines(data[,4]~date,col="blue",lwd=2)
+lines(data[,5]~date,col="red",lwd=2)
+lines(data[,6]~date,col="green",lwd=2)
+for(i in 6:20){lines(data[,i]~date,col="grey")}
+dev.off()
