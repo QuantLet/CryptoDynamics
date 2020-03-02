@@ -1,0 +1,13 @@
+Name of QuantLet : CryptoDynamics_Trading
+
+Published in : 'Cointegration and Cryptocurrency Dynamics in High Dimensions'
+
+Description : 'Scrape and merge the prices of the N largest cryptocurrencies over a period of T observations.'
+
+Keywords : Cryptocurrencies, CRIX, Cointegration, Scraping
+
+See also : 'CryptoDynamics_Series, Crypto_Dynamics_Wachter, CryptoDynamics_Estimation', 'CryptoDynamics_Scraping'
+
+Author : Georg Keilbar, Yanfen Zhang
+
+Submitted : March 2 2020 by Georg Keilbar
