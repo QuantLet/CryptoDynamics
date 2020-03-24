@@ -1,6 +1,6 @@
 Name of QuantLet : CryptoDynamics_Estimation
 
-Published in : 'Cointegration and Cryptocurrency Dynamics in High Dimensions'
+Published in : 'On Cointegration and Cryptocurrency Dynamics'
 
 Description : 'Estimates the vector error correction model coefficients in a multivariate time series of cryptocurrencies.'
 
