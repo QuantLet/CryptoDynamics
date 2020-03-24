@@ -1,1 +1,13 @@
+Name of QuantLet : CryptoDynamics_Nonlinear
 
+Published in : 'On Cointegration and Cryptocurrency Dynamics'
+
+Description : 'Estimates a nonlinear VECM specification using cryptocurrency data. Plots the nonlinear part of the model'
+
+Keywords : Cryptocurrencies, CRIX, Cointegration, Estimation, VECM
+
+See also : 'CryptoDynamics_Series, Crypto_Dynamics_Wachter, CryptoDynamics_Scraping, CryptoDynamics_Estimation'
+
+Author : Georg Keilbar, Yanfen Zhang
+
+Submitted : March 24, 2020 by Georg Keilbar
