@@ -2,7 +2,7 @@ Name of QuantLet : CryptoDynamics_Series
 
 Published in : 'On Cointegration and Cryptocurrency Dynamics'
 
-Description : 'Plots the log-prices of the 20 largest cryptocurrencies over a period from October 2017 - October 2019.'
+Description : 'Plots the log-prices of the 20 largest cryptocurrencies over a period from July 2017 - February 2020.'
 
 Keywords : Cryptocurrencies, CRIX, Cointegration, Time series
 
