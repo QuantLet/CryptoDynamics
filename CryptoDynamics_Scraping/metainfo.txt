@@ -1,8 +1,8 @@
 Name of QuantLet : CryptoDynamics_Scraping
 
-Published in : 'Cointegration and Cryptocurrency Dynamics in High Dimensions'
+Published in : 'On Cointegration and Cryptocurrency Dynamics'
 
-Description : 'Scrape and merge the prices of the N largest cryptocurrencies over a period of T observations.'
+Description : 'Scrape and merge the prices of the N largest cryptocurrencies over a specified time period'
 
 Keywords : Cryptocurrencies, CRIX, Cointegration, Scraping
 
