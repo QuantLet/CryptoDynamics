@@ -6,7 +6,7 @@ Description : 'Implementation of a cointegration-based trading algorithm. Visual
 
 Keywords : Cryptocurrencies, CRIX, Cointegration, Trading
 
-See also : 'CryptoDynamics_Series, Crypto_Dynamics_Wachter, CryptoDynamics_Estimation', 'CryptoDynamics_Scraping'
+See also : 'CryptoDynamics_Series, Crypto_Dynamics_Wachter, CryptoDynamics_Estimation, CryptoDynamics_Scraping'
 
 Author : Georg Keilbar, Yanfen Zhang
 
