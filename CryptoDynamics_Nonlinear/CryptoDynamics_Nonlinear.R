@@ -36,7 +36,7 @@ for (m in 1:M){
     MSE[m] = mean(lm(dx[,j]~cbind(zG,dx_1))$residuals^2)/p + MSE[m]
   }
 }
-gammahat = gamma[,which(MSE==max(MSE))]
+gammahat = gamma[,which(MSE==min(MSE))]
 Ghat = as.vector(1+tanh(gammahat %*% t(z)))
 
 pdf(file = "CryptoDynamics_Nonlinear.pdf", width = 7, height = 5, family = "Helvetica") # defaults to 7 x 7 inches
