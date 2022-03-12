@@ -129,7 +129,7 @@ dev.off()
 network = graph_from_adjacency_matrix(as.matrix(gamma))
 E(network)$width <- ((E(network)$weight))*100
 E(network)$color = "black"
-V(network)$name = rownames(dlogprice)
+V(network)$name = colnames(dlogprice)
 V(network)$color = "yellow"
 V(network)$label.cex = 1
 
